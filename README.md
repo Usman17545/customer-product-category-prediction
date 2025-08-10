@@ -43,5 +43,4 @@ The dataset contains approximately 30,000 customer records with features such as
 
 - Performed K-Means clustering based on Amount, Total Amount, and Total Purchases.
 - Segmented customers into groups like high spenders, moderate buyers, and low spenders.
-- Visualized clusters with dimensionality reduction techniques like PCA.
 
