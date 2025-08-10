@@ -22,7 +22,7 @@ The dataset contains approximately 30,000 customer records with features such as
 
 - Removed null and missing values to ensure data quality.
 - Used boxplots to identify outliers.
-- Replaced outliers with Q1 or Q3 values to reduce their impact.
+- Capped outliers by increasing values below Q1 to Q1 and decreasing values above Q3 to Q3, reducing their impact while preserving data integrity.
 - Encoded categorical variables:
   - Label encoding for ordinal features
   - One-hot encoding for nominal features
